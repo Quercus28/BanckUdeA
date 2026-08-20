@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.udea.worldbank.client.CountriesWorldBankClientTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-08-19T22:50:57" hostname="QUERCUSSILVER" time="1.584">
+  <properties/>
+  <testcase name="test_getRealCountryCodes_queriesTheCountryEndpointWithTheExpectedParameters()" classname="com.udea.worldbank.client.CountriesWorldBankClientTest" time="1.133"/>
+  <testcase name="test_getRealCountryCodes_excludesAggregates_whenTheApiReturnsCountriesAndAggregates()" classname="com.udea.worldbank.client.CountriesWorldBankClientTest" time="0.097"/>
+  <testcase name="test_getRealCountryCodes_throwsWorldBankApiException_whenTheApiReturnsNoData()" classname="com.udea.worldbank.client.CountriesWorldBankClientTest" time="0.014"/>
+  <testcase name="test_getRealCountryCodes_cachesTheResult_whenCalledMoreThanOnce()" classname="com.udea.worldbank.client.CountriesWorldBankClientTest" time="0.011"/>
+  <testcase name="test_getRealCountryCodes_reusesTheFirstThreadResult_whenTwoThreadsRaceInTheSynchronizedSection()" classname="com.udea.worldbank.client.CountriesWorldBankClientTest" time="0.318"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

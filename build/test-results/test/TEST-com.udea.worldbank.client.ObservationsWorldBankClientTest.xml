@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.udea.worldbank.client.ObservationsWorldBankClientTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-08-19T22:50:58" hostname="QUERCUSSILVER" time="0.159">
+  <properties/>
+  <testcase name="test_getObservations_returnsMappedObservations_whenTheApiReturnsData()" classname="com.udea.worldbank.client.ObservationsWorldBankClientTest" time="0.1"/>
+  <testcase name="test_getObservations_returnsEmptyList_whenTheApiReturnsNoData()" classname="com.udea.worldbank.client.ObservationsWorldBankClientTest" time="0.01"/>
+  <testcase name="test_getObservations_includesTheDateRange_whenFromAndToAreNotNull()" classname="com.udea.worldbank.client.ObservationsWorldBankClientTest" time="0.02"/>
+  <testcase name="test_getObservations_omitsTheDateParameter_whenOnlyOneOfFromOrToIsNull()" classname="com.udea.worldbank.client.ObservationsWorldBankClientTest" time="0.008"/>
+  <testcase name="test_getObservations_omitsTheDateParameter_whenFromAndToAreNull()" classname="com.udea.worldbank.client.ObservationsWorldBankClientTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
