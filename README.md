@@ -262,7 +262,3 @@ No son casos de uso, pero los sostienen:
 - `value` llega como `null` en los años que un país no reportó.
 - El endpoint `all` mezcla países con agregados (Mundo, regiones, grupos de
   ingreso); estos traen `region.id == "NA"` y se descartan cruzando con `/country`.
-
-## Nota
-
-No comercial. Datos © World Bank, bajo licencia CC BY 4.0.
